@@ -1,30 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+/* Global */
+.navbarfont {
+    font-family: 'Roboto', sans-serif;
+}
+
+.globalTxt {
+    font-family: 'Roboto', sans-serif;
+}
+.w{
+    width: 100dvw;
+}
+
 
 /* navbar */
-.home{
+.home {
     color: #FE980E
 }
-.navbarfont{
-    font-family: 'Roboto', sans-serif;
-    
-}
-.navbartext{
+
+.navbartext {
     color: #656565;
 
 }
-.navbartext:hover{
+
+.navbartext:hover {
     color: #FE980E;
 }
-.navBtn{
+
+.navBtn {
     background-image: linear-gradient(#FFCF40, #FE960C);
     box-shadow: none;
 }
-.navBtn:hover{
+
+.navBtn:hover {
     box-shadow: 0px 7px 20px 0px #fea2178e;
 }
 
 
 /* Hero section */
+.txt {
+    font-family: 'Laila', sans-serif;
+}
+
+.gradientTxt {
+    background-image: linear-gradient(90deg,#FEB349,#F58BEA);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+
+}
+
+.txt2 {
+    color: #474747;
+}
+.h{
+    height: 100dvh;
+}
